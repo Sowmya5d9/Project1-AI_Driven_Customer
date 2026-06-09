@@ -5,7 +5,7 @@ from models.segmentation import customer_segmentation
 from models.churn_prediction import churn_prediction
 from models.purchase_prediction import purchase_prediction
 from models.recommendation import get_recommendations
-
+import os
 app = Flask(__name__)
 app.secret_key = "customeranalytics"
 
