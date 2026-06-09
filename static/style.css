@@ -1,0 +1,338 @@
+/* =========================
+   Login & Register Pages
+========================= */
+
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial, sans-serif;
+    background:#f4f6f9;
+}
+
+.login-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+.login-card{
+    width:450px;
+    background:#ffffff;
+    padding:35px;
+    border-radius:15px;
+    box-shadow:0px 5px 15px rgba(0,0,0,0.15);
+}
+
+.login-card h2{
+    text-align:center;
+    color:#2563eb;
+    margin-bottom:10px;
+    font-weight:bold;
+}
+
+.subtitle{
+    text-align:center;
+    color:#666;
+    margin-bottom:25px;
+}
+
+.form-label{
+    font-weight:600;
+}
+
+.form-control{
+    height:45px;
+    border-radius:8px;
+}
+
+.form-control:focus{
+    box-shadow:none;
+    border-color:#2563eb;
+}
+
+.btn-primary,
+.btn-success{
+    height:45px;
+    border-radius:8px;
+    font-weight:600;
+}
+
+.btn-primary{
+    background:#2563eb;
+    border:none;
+}
+
+.btn-primary:hover{
+    background:#1d4ed8;
+}
+
+.btn-success{
+    background:#10b981;
+    border:none;
+}
+
+.btn-success:hover{
+    background:#059669;
+}
+
+a{
+    text-decoration:none;
+    color:#2563eb;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+.alert{
+    border-radius:8px;
+}
+/* =========================
+   Customers Page
+========================= */
+
+.sidebar{
+    width:250px;
+    height:100vh;
+    background:#1e293b;
+    position:fixed;
+    left:0;
+    top:0;
+    padding-top:20px;
+}
+
+.sidebar h3{
+    color:white;
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.sidebar a{
+    display:block;
+    color:white;
+    padding:15px;
+    text-decoration:none;
+}
+
+.sidebar a:hover{
+    background:#334155;
+}
+
+.main-content{
+    margin-left:260px;
+    padding:20px;
+}
+
+.table-container{
+    background:white;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0px 4px 10px rgba(0,0,0,0.1);
+    overflow-x:auto;
+}
+
+.table{
+    margin-bottom:0;
+}
+
+/* =========================
+   Prediction Page
+========================= */
+
+.prediction-card{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0px 4px 10px rgba(0,0,0,0.1);
+    margin-top:20px;
+}
+
+.prediction-card h4{
+    margin-bottom:20px;
+}
+
+.result-box{
+    margin-top:20px;
+    padding:20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.churn-box{
+    background:#fee2e2;
+    color:#b91c1c;
+    border-left:5px solid #dc2626;
+}
+
+.purchase-box{
+    background:#dcfce7;
+    color:#15803d;
+    border-left:5px solid #16a34a;
+}
+.table-container{
+    margin-top:20px;
+}
+
+.chart-container{
+    background:white;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0px 4px 10px rgba(0,0,0,0.1);
+    margin-top:20px;
+}
+/* =========================
+   Recommendation Page
+========================= */
+
+.recommendation-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:20px;
+    margin-top:20px;
+}
+
+.recommend-card{
+    background:white;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0px 4px 10px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.recommend-card:hover{
+    transform:translateY(-5px);
+}
+
+.recommend-card h4{
+    color:#2563eb;
+    margin-bottom:15px;
+}
+
+.recommend-card p{
+    margin-bottom:10px;
+}
+/* =========================
+   Dashboard Layout
+========================= */
+
+body{
+    margin:0;
+    background:#f4f6f9;
+    font-family:Arial, sans-serif;
+}
+
+.sidebar{
+    background:#1f2937;
+    min-height:100vh;
+    padding-top:20px;
+}
+
+.sidebar h3{
+    color:white;
+    font-weight:bold;
+}
+
+.sidebar .nav-link{
+    color:white;
+    padding:12px 20px;
+    margin:5px 10px;
+    border-radius:8px;
+    transition:0.3s;
+}
+
+.sidebar .nav-link:hover{
+    background:#374151;
+}
+
+.main-content{
+    padding:30px;
+}
+
+/* =========================
+   KPI Cards
+========================= */
+
+.card{
+    border:none;
+    border-radius:15px;
+    margin-bottom:20px;
+}
+
+.card-body{
+    padding:25px;
+}
+
+.card h5{
+    color:#6b7280;
+    font-size:16px;
+}
+
+.card h2{
+    font-size:32px;
+    font-weight:bold;
+    margin-top:10px;
+}
+
+/* =========================
+   Dashboard Charts
+========================= */
+
+.chart-container,
+.card.shadow-sm{
+    border-radius:15px;
+    overflow:hidden;
+}
+
+canvas{
+    width:100% !important;
+    height:320px !important;
+}
+
+/* =========================
+   Dashboard Header
+========================= */
+
+.main-content h2{
+    font-weight:bold;
+    color:#1f2937;
+    margin-bottom:25px;
+}
+
+/* =========================
+   Responsive
+========================= */
+
+@media(max-width:768px){
+
+    .sidebar{
+        min-height:auto;
+    }
+
+    .main-content{
+        padding:15px;
+    }
+
+    .card h2{
+        font-size:24px;
+    }
+
+    canvas{
+        height:250px !important;
+    }
+}
+.card:nth-child(1){
+    border-left:5px solid #3b82f6;
+}
+
+.card:nth-child(2){
+    border-left:5px solid #10b981;
+}
+
+.card:nth-child(3){
+    border-left:5px solid #f59e0b;
+}
+
+.card:nth-child(4){
+    border-left:5px solid #ef4444;
+}

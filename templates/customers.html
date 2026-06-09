@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Management</title>
+
+```
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+```
+
+</head>
+<body>
+
+<div class="dashboard-container">
+
+```
+<div class="sidebar">
+    <h2>Analytics</h2>
+
+    <ul>
+        <li><a href="/dashboard">Dashboard</a></li>
+        <li><a href="/customers">Customers</a></li>
+        <li><a href="/segmentation">Segmentation</a></li>
+        <li><a href="/prediction">Prediction</a></li>
+        <li><a href="/recommendation">Recommendations</a></li>
+        <li><a href="/logout">Logout</a></li>
+    </ul>
+</div>
+
+<div class="main-content">
+
+    <h1>Customer Management</h1>
+
+    <div class="table-container">
+
+        <table class="table table-bordered table-striped">
+
+            <thead class="table-dark">
+                <tr>
+                    <th>ID</th>
+                    <th>Age</th>
+                    <th>Gender</th>
+                    <th>Location</th>
+                    <th>Income</th>
+                    <th>Purchase Frequency</th>
+                    <th>Total Spending</th>
+                    <th>Membership</th>
+                    <th>Category</th>
+                    <th>Segment</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+            {% for customer in customers %}
+                <tr>
+                    <td>{{ customer.Customer_ID }}</td>
+                    <td>{{ customer.Age }}</td>
+                    <td>{{ customer.Gender }}</td>
+                    <td>{{ customer.Location }}</td>
+                    <td>{{ customer.Annual_Income }}</td>
+                    <td>{{ customer.Purchase_Frequency }}</td>
+                    <td>{{ customer.Total_Spending }}</td>
+                    <td>{{ customer.Membership_Status }}</td>
+                    <td>{{ customer.Preferred_Product_Category }}</td>
+
+                    <td>
+                        {% if customer.Segment is defined %}
+                            {{ customer.Segment }}
+                        {% else %}
+                            -
+                        {% endif %}
+                    </td>
+                </tr>
+            {% endfor %}
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+</div>
+```
+
+</div>
+
+</body>
+</html>

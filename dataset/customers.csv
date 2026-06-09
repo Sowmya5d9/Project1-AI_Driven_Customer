@@ -1,0 +1,101 @@
+Customer_ID,Age,Gender,Location,Annual_Income,Purchase_Frequency,Total_Spending,Membership_Status,Preferred_Product_Category,Churn_Status
+1,23,Male,Bangalore,35000,5,12000,Silver,Electronics,0
+2,31,Female,Hyderabad,52000,12,45000,Gold,Fashion,0
+3,28,Male,Chennai,48000,8,22000,Silver,Groceries,0
+4,45,Female,Mumbai,75000,15,68000,Platinum,Electronics,0
+5,39,Male,Delhi,62000,6,27000,Gold,Home Decor,1
+6,26,Female,Pune,41000,10,31000,Silver,Fashion,0
+7,34,Male,Bangalore,56000,14,52000,Gold,Electronics,0
+8,29,Female,Hyderabad,47000,7,21000,Silver,Beauty,1
+9,41,Male,Chennai,69000,18,76000,Platinum,Electronics,0
+10,24,Female,Mumbai,38000,4,11000,Bronze,Fashion,1
+11,32,Male,Delhi,54000,11,42000,Gold,Groceries,0
+12,37,Female,Pune,61000,9,35000,Gold,Beauty,0
+13,27,Male,Bangalore,45000,13,48000,Silver,Electronics,0
+14,43,Female,Hyderabad,72000,16,70000,Platinum,Fashion,0
+15,30,Male,Chennai,50000,8,24000,Silver,Home Decor,0
+16,25,Female,Mumbai,39000,5,15000,Bronze,Beauty,1
+17,36,Male,Delhi,65000,17,74000,Platinum,Electronics,0
+18,40,Female,Pune,70000,12,56000,Gold,Fashion,0
+19,22,Male,Bangalore,34000,3,9000,Bronze,Groceries,1
+20,33,Female,Hyderabad,57000,10,39000,Gold,Beauty,0
+21,29,Male,Chennai,49000,7,22000,Silver,Electronics,0
+22,46,Female,Mumbai,78000,18,82000,Platinum,Fashion,0
+23,38,Male,Delhi,63000,9,34000,Gold,Home Decor,0
+24,27,Female,Pune,43000,6,18000,Silver,Beauty,1
+25,35,Male,Bangalore,59000,14,61000,Gold,Electronics,0
+26,31,Female,Hyderabad,53000,8,26000,Silver,Fashion,0
+27,42,Male,Chennai,71000,15,69000,Platinum,Groceries,0
+28,24,Female,Mumbai,36000,4,12000,Bronze,Beauty,1
+29,37,Male,Delhi,64000,11,47000,Gold,Electronics,0
+30,28,Female,Pune,45000,9,30000,Silver,Fashion,0
+31,26,Male,Bangalore,42000,7,21000,Silver,Home Decor,0
+32,44,Female,Hyderabad,76000,17,78000,Platinum,Electronics,0
+33,39,Male,Chennai,67000,13,55000,Gold,Fashion,0
+34,23,Female,Mumbai,35000,3,10000,Bronze,Beauty,1
+35,34,Male,Delhi,58000,12,46000,Gold,Electronics,0
+36,29,Female,Pune,47000,8,25000,Silver,Groceries,0
+37,41,Male,Bangalore,70000,16,73000,Platinum,Electronics,0
+38,27,Female,Hyderabad,44000,5,17000,Silver,Fashion,1
+39,36,Male,Chennai,62000,10,39000,Gold,Home Decor,0
+40,30,Female,Mumbai,51000,9,32000,Silver,Beauty,0
+41,25,Male,Delhi,40000,6,19000,Silver,Electronics,1
+42,43,Female,Pune,74000,18,81000,Platinum,Fashion,0
+43,38,Male,Bangalore,65000,14,62000,Gold,Electronics,0
+44,24,Female,Hyderabad,37000,4,13000,Bronze,Beauty,1
+45,33,Male,Chennai,56000,11,43000,Gold,Groceries,0
+46,28,Female,Mumbai,46000,7,22000,Silver,Fashion,0
+47,45,Male,Delhi,77000,17,79000,Platinum,Electronics,0
+48,31,Female,Pune,52000,10,36000,Gold,Home Decor,0
+49,26,Male,Bangalore,43000,5,16000,Silver,Beauty,1
+50,40,Female,Hyderabad,69000,15,68000,Platinum,Fashion,0
+51,29,Male,Chennai,50000,8,28000,Silver,Electronics,0
+52,35,Female,Mumbai,60000,12,51000,Gold,Beauty,0
+53,27,Male,Delhi,45000,6,20000,Silver,Groceries,1
+54,42,Female,Pune,72000,16,74000,Platinum,Fashion,0
+55,32,Male,Bangalore,55000,10,40000,Gold,Electronics,0
+56,24,Female,Hyderabad,38000,4,12000,Bronze,Beauty,1
+57,39,Male,Chennai,66000,14,63000,Gold,Home Decor,0
+58,30,Female,Mumbai,50000,8,27000,Silver,Fashion,0
+59,44,Male,Delhi,76000,18,83000,Platinum,Electronics,0
+60,28,Female,Pune,47000,7,23000,Silver,Beauty,0
+61,34,Male,Bangalore,58000,11,45000,Gold,Electronics,0
+62,25,Female,Hyderabad,41000,5,15000,Silver,Fashion,1
+63,41,Male,Chennai,70000,15,70000,Platinum,Groceries,0
+64,36,Female,Mumbai,62000,12,52000,Gold,Beauty,0
+65,23,Male,Delhi,34000,3,9000,Bronze,Electronics,1
+66,37,Female,Pune,64000,13,58000,Gold,Fashion,0
+67,29,Male,Bangalore,49000,8,25000,Silver,Home Decor,0
+68,43,Female,Hyderabad,75000,17,79000,Platinum,Electronics,0
+69,31,Male,Chennai,54000,10,37000,Gold,Beauty,0
+70,26,Female,Mumbai,42000,6,18000,Silver,Fashion,1
+71,45,Male,Delhi,78000,18,85000,Platinum,Electronics,0
+72,33,Female,Pune,57000,11,44000,Gold,Groceries,0
+73,28,Male,Bangalore,46000,7,22000,Silver,Beauty,0
+74,40,Female,Hyderabad,68000,14,65000,Platinum,Fashion,0
+75,24,Male,Chennai,36000,4,11000,Bronze,Electronics,1
+76,38,Female,Mumbai,65000,13,59000,Gold,Home Decor,0
+77,30,Male,Delhi,51000,9,31000,Silver,Fashion,0
+78,42,Female,Pune,73000,16,76000,Platinum,Beauty,0
+79,27,Male,Bangalore,44000,6,19000,Silver,Electronics,1
+80,35,Female,Hyderabad,61000,12,50000,Gold,Fashion,0
+81,29,Male,Chennai,50000,8,27000,Silver,Groceries,0
+82,44,Female,Mumbai,77000,18,82000,Platinum,Electronics,0
+83,32,Male,Delhi,55000,10,39000,Gold,Beauty,0
+84,25,Female,Pune,40000,5,14000,Silver,Fashion,1
+85,39,Male,Bangalore,67000,14,62000,Gold,Electronics,0
+86,31,Female,Hyderabad,53000,9,33000,Silver,Home Decor,0
+87,46,Male,Chennai,79000,19,88000,Platinum,Electronics,0
+88,28,Female,Mumbai,47000,7,24000,Silver,Beauty,0
+89,36,Male,Delhi,63000,12,54000,Gold,Fashion,0
+90,24,Female,Pune,37000,4,12000,Bronze,Groceries,1
+91,41,Male,Bangalore,71000,15,72000,Platinum,Electronics,0
+92,33,Female,Hyderabad,56000,11,43000,Gold,Fashion,0
+93,27,Male,Chennai,45000,6,20000,Silver,Beauty,1
+94,43,Female,Mumbai,75000,17,80000,Platinum,Electronics,0
+95,30,Male,Delhi,52000,9,32000,Silver,Home Decor,0
+96,37,Female,Pune,65000,13,60000,Gold,Fashion,0
+97,26,Male,Bangalore,43000,5,16000,Silver,Groceries,1
+98,45,Female,Hyderabad,78000,18,86000,Platinum,Electronics,0
+99,34,Male,Chennai,59000,12,48000,Gold,Beauty,0
+100,29,Female,Mumbai,48000,8,26000,Silver,Fashion,0
